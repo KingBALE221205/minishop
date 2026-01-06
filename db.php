@@ -2,9 +2,9 @@
 // Thông tin kết nối TiDB Cloud (Đã điền sẵn)
 $host = 'gateway01.ap-southeast-1.prod.aws.tidbcloud.com';
 $port = 4000;
-$username = '2K3eTsxBZH4ZizW.root';
-$password = 'Pn9B7v9I84IO2HnV';
-$dbname = 'test';
+$username = 'kN2FHykEphtEtUQ.root';
+$password = '7cSq5nkEINuTq78e';
+$dbname = 'ql_giay';
 
 // Khởi tạo kết nối SSL (Bắt buộc với TiDB)
 $conn = mysqli_init();
@@ -17,4 +17,5 @@ if (!mysqli_real_connect($conn, $host, $username, $password, $dbname, $port, NUL
 
 // Thiết lập font chữ tiếng Việt cho chuẩn
 $conn->set_charset("utf8");
+
 ?>
